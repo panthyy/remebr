@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Header, Button, DarkModeToggle } from "../components";
 import { useTreeStore } from "../stores";
 import { folderorcard } from "../stores";
-export default function dashboardPage() {
+export default function DashboardPage() {
   const [folders, getItem, addItem] = useTreeStore((state) => [
     state.folders,
     state.getItem,
